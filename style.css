@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(61, 59, 59);
+}
+h1 {
+    text-align: center;
+    font-family: cursive;
+    padding: 20px;
+    background: linear-gradient(90deg, #FC466B, #3F5EFB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    transition: transform 0.3s ease-in-out; 
+}
+
+h1:hover {
+    transform: scaleY(1.2); 
+}
+
+
+p{
+    text-align: center;
+    font-family: cursive;
+    color: #FF6BAA; 
+    font-size: 16px;
+    margin-top: 10px;
+}
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: #3F5EFB;
+    position: relative;
+}
